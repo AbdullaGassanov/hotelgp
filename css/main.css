@@ -16,4 +16,114 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: "Playfair Display", serif;
+}
+
+.row-mid {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 100vh;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.432))), url("../img/banner-img.jpg");
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.432)), url("../img/banner-img.jpg");
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.432)), url("../img/banner-img.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.432)), url("../img/banner-img.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover;
+}
+.header__banner {
+  position: relative;
+  height: 100%;
+  display: grid;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  text-align: center;
+}
+.header__banner-box {
+  text-align: center;
+}
+.header__title {
+  color: #fff;
+  font-size: 4.5rem;
+  margin-bottom: 3.2rem;
+  position: relative;
+  display: inline-block;
+}
+.header__title::after {
+  content: "";
+  position: absolute;
+  bottom: -2rem;
+  left: 0;
+  width: 100%;
+  height: 1.5px;
+  background-color: rgb(233, 232, 232);
+}
+.header__txt {
+  color: #fff;
+  font-size: 2.1rem;
+  opacity: 0.6;
+  margin-top: 2.2rem;
+  padding: 3rem 15rem;
+}
+.header__btn {
+  margin-top: 4rem;
+  border: 2px solid #fff;
+  color: #fff;
+  background: transparent;
+  font-size: 2.1rem;
+  padding: 1.2rem 2.5rem;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.header__btn:hover {
+  color: #f9d342;
+}
+
+.navbar {
+  padding: 2rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.navbar__logo {
+  font-size: 2.1rem;
+  color: #fff;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.navbar__logo:hover {
+  color: #f9d342;
+}
+.navbar__menu {
+  position: relative;
+}
+.navbar__burger {
+  font-size: 2.1rem;
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.navbar__burger:hover {
+  color: #f9d342;
 }/*# sourceMappingURL=main.css.map */

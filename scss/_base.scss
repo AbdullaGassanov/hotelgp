@@ -1,5 +1,13 @@
 $color-promary: #f9d342;
 
+@mixin goldHover {
+  transition: 0.2s;
+  cursor: pointer;
+  &:hover {
+    color: $color-promary;
+  }
+}
+
 *,
 *::before,
 *::after {
@@ -17,4 +25,9 @@ html {
 body {
   box-sizing: border-box;
   font-family: 'Playfair Display', serif;
+}
+
+.row-mid {
+  max-width: 1200px;
+  margin: 0 auto;
 }

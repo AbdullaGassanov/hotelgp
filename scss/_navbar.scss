@@ -1,0 +1,24 @@
+.navbar {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__logo {
+    font-size: 2.1rem;
+    color: #fff;
+    @include goldHover;
+  }
+
+  &__menu {
+    position: relative;
+  }
+
+  &__burger {
+    font-size: 2.1rem;
+    color: #fff;
+    text-decoration: none;
+
+    @include goldHover;
+  }
+}
